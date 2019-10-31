@@ -114,6 +114,12 @@ export default {
               component: './Welcome',
             },
             {
+              path: '/order',
+              name: 'order',
+              icon: 'global',
+              component: './Order',
+            },
+            {
               component: './404',
             },
           ],
