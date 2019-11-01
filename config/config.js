@@ -117,7 +117,16 @@ export default {
               path: '/order',
               name: 'order',
               icon: 'global',
-              component: './Order',
+              component: './order/Order',
+              children: [
+                {
+                  path: '/order/list',
+                  name: 'list',
+                  icon: 'line-chart',
+                  // component: './order/List',
+                  exact: true,
+                }
+              ]
             },
             {
               component: './404',
