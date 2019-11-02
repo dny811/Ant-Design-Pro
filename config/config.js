@@ -125,6 +125,14 @@ export default {
                   icon: 'line-chart',
                   // component: './order/List',
                   exact: true,
+                  children: [
+                    {
+                      path: '/order/list/table',
+                      name: 'table',
+                      icon: 'line-chart',
+                      exact: true,
+                    }
+                  ]
                 }
               ]
             },
