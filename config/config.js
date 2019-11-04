@@ -125,14 +125,21 @@ export default {
                   icon: 'line-chart',
                   // component: './order/List',
                   exact: true,
-                  children: [
-                    {
-                      path: '/order/list/table',
-                      name: 'table',
-                      icon: 'line-chart',
-                      exact: true,
-                    }
-                  ]
+                  // children: [
+                  //   {
+                  //     path: '/order/list/table',
+                  //     name: 'table',
+                  //     icon: 'line-chart',
+                  //     component: './order/Order',
+                  //     exact: true,
+                  //   },
+                  //   {
+                  //     path: '/order/list/buy',
+                  //     name: 'buy',
+                  //     icon: 'line-chart',
+                  //     exact: true,
+                  //   },
+                  // ]
                 }
               ]
             },
