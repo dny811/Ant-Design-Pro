@@ -117,31 +117,27 @@ export default {
               path: '/order',
               name: 'order',
               icon: 'global',
-              component: './order/Order',
-              children: [
+              routes: [
                 {
                   path: '/order/list',
                   name: 'list',
                   icon: 'line-chart',
-                  // component: './order/List',
-                  exact: true,
-                  // children: [
-                  //   {
-                  //     path: '/order/list/table',
-                  //     name: 'table',
-                  //     icon: 'line-chart',
-                  //     component: './order/Order',
-                  //     exact: true,
-                  //   },
-                  //   {
-                  //     path: '/order/list/buy',
-                  //     name: 'buy',
-                  //     icon: 'line-chart',
-                  //     exact: true,
-                  //   },
-                  // ]
-                }
-              ]
+                  routes: [
+                    {
+                      path: '/order/list/table',
+                      name: 'table',
+                      icon: 'line-chart',
+                      component: './order/Order',
+                    },
+                    {
+                      path: '/order/list/buy',
+                      name: 'buy',
+                      icon: 'line-chart',
+                      component: './order/List',
+                    },
+                  ],
+                },
+              ],
             },
             {
               component: './404',
