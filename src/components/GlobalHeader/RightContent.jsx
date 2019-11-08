@@ -4,7 +4,7 @@ import { connect } from 'dva';
 import { formatMessage } from 'umi-plugin-react/locale';
 import Avatar from './AvatarDropdown';
 import HeaderSearch from '../HeaderSearch';
-import SelectLang from '../SelectLang';
+// import SelectLang from '../SelectLang';
 import styles from './index.less';
 
 const GlobalHeaderRight = props => {
@@ -22,7 +22,7 @@ const GlobalHeaderRight = props => {
         placeholder={formatMessage({
           id: 'component.globalHeader.search',
         })}
-        defaultValue="umi ui"
+        defaultValue="hello~ pretty boy"
         dataSource={[
           formatMessage({
             id: 'component.globalHeader.search.example1',
@@ -34,6 +34,7 @@ const GlobalHeaderRight = props => {
             id: 'component.globalHeader.search.example3',
           }),
         ]}
+        // 等同onChange[也可以写成onChange]
         onSearch={value => {
           console.log('input', value);
         }}
@@ -56,7 +57,7 @@ const GlobalHeaderRight = props => {
         </a>
       </Tooltip>
       <Avatar />
-      <SelectLang className={styles.action} />
+      {/* <SelectLang className={styles.action} /> */}
     </div>
   );
 };

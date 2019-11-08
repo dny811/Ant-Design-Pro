@@ -110,29 +110,29 @@ export default {
             {
               path: '/welcome',
               name: 'welcome',
-              icon: 'smile',
+              // icon: 'smile',
               component: './Welcome',
             },
             {
               path: '/order',
               name: 'order',
-              icon: 'global',
+              // icon: 'global',
               routes: [
                 {
                   path: '/order/list',
                   name: 'list',
-                  icon: 'line-chart',
+                  // icon: 'line-chart',
                   routes: [
                     {
                       path: '/order/list/table',
                       name: 'table',
-                      icon: 'line-chart',
+                      // icon: 'line-chart',
                       component: './order/Order',
                     },
                     {
                       path: '/order/list/buy',
                       name: 'buy',
-                      icon: 'line-chart',
+                      // icon: 'line-chart',
                       component: './order/List',
                     },
                   ],
