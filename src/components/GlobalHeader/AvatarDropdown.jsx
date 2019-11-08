@@ -1,9 +1,10 @@
-import { Avatar, Icon, Menu, Spin } from 'antd';
+// import { Avatar, Icon, Menu, Spin } from 'antd';
+import { Icon, Menu, Spin } from 'antd';
 import { FormattedMessage } from 'umi-plugin-react/locale';
 import React from 'react';
 import { connect } from 'dva';
 import router from 'umi/router';
-import HeaderDropdown from '../HeaderDropdown';
+// import HeaderDropdown from '../HeaderDropdown';
 import styles from './index.less';
 
 class AvatarDropdown extends React.Component {
@@ -56,13 +57,21 @@ class AvatarDropdown extends React.Component {
       </Menu>
     );
     return currentUser && currentUser.name ? (
-      <HeaderDropdown overlay={menuHeaderDropdown}>
-        <span className={`${styles.action} ${styles.account}`}>
-          <Avatar size="small" className={styles.avatar} src={currentUser.avatar} alt="avatar" />
-          <span className={styles.name}>{currentUser.name}</span>
-        </span>
-      </HeaderDropdown>
+      <span className={`${styles.action} ${styles.account}`}>
+        {/* <Avatar size="small" className={styles.avatar} src={currentUser.avatar} alt="avatar" />
+        <span className={styles.name}>{currentUser.name}</span> */}
+        <Icon className={styles.icon} type="logout" />
+        <span className={styles.logout}>退出账号</span>
+      </span>
     ) : (
+      // <HeaderDropdown overlay={menuHeaderDropdown}>
+      //   <span className={`${styles.action} ${styles.account}`}>
+      //     <Avatar size="small" className={styles.avatar} src={currentUser.avatar} alt="avatar" />
+      //     <span className={styles.name}>{currentUser.name}</span>
+      //     {/* <Icon className={styles.icon} type="logout" />
+      //     <span className={styles.logout}>退出账号</span> */}
+      //   </span>
+      // </HeaderDropdown>
       <Spin
         size="small"
         style={{

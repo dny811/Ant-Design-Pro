@@ -12,7 +12,7 @@ import { formatMessage } from 'umi-plugin-react/locale';
 import Authorized from '@/utils/Authorized';
 import RightContent from '@/components/GlobalHeader/RightContent';
 import { isAntDesignPro } from '@/utils/utils';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo.png';
 
 /**
  * use Authorized check all menu item
@@ -23,16 +23,15 @@ import logo from '../assets/logo.svg';
 //     return Authorized.check(item.authority, localItem, null);
 //   });
 const menuDataRender = menuList => {
-  console.log('menuList: ', menuList);
   return menuList.map(item => {
     const localItem = { ...item, children: item.children ? menuDataRender(item.children) : [] };
     return Authorized.check(item.authority, localItem, null);
   });
-}
+};
 
 const defaultFooterDom = (
   <DefaultFooter
-    copyright="2019 蚂蚁金服体验技术部出品"
+    copyright="2019 贝贝帮体验技术部出品"
     links={[
       {
         key: 'Ant Design Pro',

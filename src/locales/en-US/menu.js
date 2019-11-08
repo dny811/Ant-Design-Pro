@@ -47,4 +47,9 @@ export default {
   'menu.editor.flow': 'Flow Editor',
   'menu.editor.mind': 'Mind Editor',
   'menu.editor.koni': 'Koni Editor',
+  // 项目自定义新建国际化
+  'menu.order': 'order',
+  'menu.order.list': 'list',
+  'menu.order.list.table': 'table',
+  'menu.order.list.buy': 'buy',
 };
