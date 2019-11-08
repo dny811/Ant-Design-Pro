@@ -47,4 +47,9 @@ export default {
   'menu.editor.flow': '流程编辑器',
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
+  // 项目自定义新建国际化
+  'menu.order': '订单',
+  'menu.order.list': '查看',
+  'menu.order.list.table': '列表',
+  'menu.order.list.buy': '购买',
 };
