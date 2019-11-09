@@ -52,4 +52,5 @@ export default {
   'menu.order.list': '查看',
   'menu.order.list.table': '列表',
   'menu.order.list.buy': '购买',
+  'menu.parent': '家长',
 };

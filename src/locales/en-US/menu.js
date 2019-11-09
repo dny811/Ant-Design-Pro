@@ -52,4 +52,5 @@ export default {
   'menu.order.list': 'list',
   'menu.order.list.table': 'table',
   'menu.order.list.buy': 'buy',
+  'menu.parent': 'parent',
 };
