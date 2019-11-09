@@ -140,6 +140,11 @@ export default {
               ],
             },
             {
+              path: '/parent',
+              name: 'parent',
+              component: './parent/Parent'
+            },
+            {
               component: './404',
             },
           ],
