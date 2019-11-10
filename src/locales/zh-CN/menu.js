@@ -53,4 +53,5 @@ export default {
   'menu.order.list.table': '列表',
   'menu.order.list.buy': '购买',
   'menu.parent': '家长',
+  'menu.teacher': '老师',
 };

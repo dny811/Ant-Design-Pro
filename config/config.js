@@ -145,6 +145,11 @@ export default {
               component: './parent/Parent'
             },
             {
+              path: '/teacher',
+              name: 'teacher',
+              component: './teacher/Teacher'
+            },
+            {
               component: './404',
             },
           ],
