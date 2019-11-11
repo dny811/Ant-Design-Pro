@@ -54,4 +54,5 @@ export default {
   'menu.order.list.buy': '购买',
   'menu.parent': '家长',
   'menu.teacher': '老师',
+  'menu.statistics': '统计',
 };
