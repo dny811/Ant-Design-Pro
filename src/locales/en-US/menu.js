@@ -54,4 +54,5 @@ export default {
   'menu.order.list.buy': 'buy',
   'menu.parent': 'parent',
   'menu.teacher': 'teacher',
+  'menu.statistics': 'statistics',
 };
