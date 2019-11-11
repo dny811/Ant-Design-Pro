@@ -150,6 +150,11 @@ export default {
               component: './teacher/Teacher'
             },
             {
+              path: '/statistics',
+              name: 'statistics',
+              component: './statistics/Statistics'
+            },
+            {
               component: './404',
             },
           ],
