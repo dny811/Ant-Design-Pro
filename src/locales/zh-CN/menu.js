@@ -55,4 +55,5 @@ export default {
   'menu.parent': '家长',
   'menu.teacher': '老师',
   'menu.statistics': '统计',
+  'menu.money': '资金',
 };

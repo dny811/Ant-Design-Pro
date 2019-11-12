@@ -155,6 +155,11 @@ export default {
               component: './statistics/Statistics'
             },
             {
+              path: '/money',
+              name: 'money',
+              component: './money/Money'
+            },
+            {
               component: './404',
             },
           ],
