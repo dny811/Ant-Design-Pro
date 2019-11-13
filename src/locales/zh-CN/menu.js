@@ -56,4 +56,5 @@ export default {
   'menu.teacher': '老师',
   'menu.statistics': '统计',
   'menu.money': '资金',
+  'menu.quality': '质量',
 };
