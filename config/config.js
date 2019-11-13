@@ -160,6 +160,11 @@ export default {
               component: './money/Money'
             },
             {
+              path: '/quality',
+              name: 'quality',
+              component: './quality/Quality'
+            },
+            {
               component: './404',
             },
           ],

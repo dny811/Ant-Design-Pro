@@ -56,4 +56,5 @@ export default {
   'menu.teacher': 'teacher',
   'menu.statistics': 'statistics',
   'menu.money': 'money',
+  'menu.quality': 'quality',
 };
