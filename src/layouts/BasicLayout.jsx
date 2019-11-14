@@ -112,6 +112,11 @@ const BasicLayout = props => {
 
   return (
     <ProLayout
+      // headerRender={() => {
+      //   return (
+      //     <div>hello world</div>
+      //   )
+      // }}
       logo={logo}
       onCollapse={handleMenuCollapse}
       menuItemRender={(menuItemProps, defaultDom) => {

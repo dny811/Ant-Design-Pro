@@ -57,4 +57,5 @@ export default {
   'menu.statistics': '统计',
   'menu.money': '资金',
   'menu.quality': '质量',
+  'menu.other': '其他',
 };
