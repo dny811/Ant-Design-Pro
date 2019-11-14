@@ -165,6 +165,11 @@ export default {
               component: './quality/Quality'
             },
             {
+              path: '/other',
+              name: 'other',
+              component: './other/Other'
+            },
+            {
               component: './404',
             },
           ],
