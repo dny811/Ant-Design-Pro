@@ -57,4 +57,5 @@ export default {
   'menu.statistics': 'statistics',
   'menu.money': 'money',
   'menu.quality': 'quality',
+  'menu.other': 'other',
 };
