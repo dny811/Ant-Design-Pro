@@ -14,6 +14,9 @@ import RightContent from '@/components/GlobalHeader/RightContent';
 import { isAntDesignPro } from '@/utils/utils';
 import logo from '../assets/logo.png';
 
+// 项目自定义组件
+import HeaderRender from '@/pages/header/HeaderRender'
+
 /**
  * use Authorized check all menu item
  */
@@ -110,13 +113,19 @@ const BasicLayout = props => {
     }
   };
 
+  // console.log(props)
   return (
     <ProLayout
-      // headerRender={() => {
-      //   return (
-      //     <div>hello world</div>
-      //   )
-      // }}
+      headerRender={HeaderRender}
+      menuHeaderRender={(logoDom, titleDom) => {
+        return (
+          <div>
+            {logoDom}
+            {/* {titleDom} */}
+            hello dny!
+          </div>
+        )
+      }}
       logo={logo}
       onCollapse={handleMenuCollapse}
       menuItemRender={(menuItemProps, defaultDom) => {
