@@ -10,7 +10,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: '贝贝帮后台',
   pwa: false,
   iconfontUrl: '',
 };
