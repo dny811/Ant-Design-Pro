@@ -58,4 +58,5 @@ export default {
   'menu.money': 'money',
   'menu.quality': 'quality',
   'menu.other': 'other',
+  'menu.market': 'market',
 };
