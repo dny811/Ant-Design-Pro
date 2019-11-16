@@ -170,6 +170,11 @@ export default {
               component: './other/Other'
             },
             {
+              path: '/market',
+              name: 'market',
+              component: './market/Market'
+            },
+            {
               component: './404',
             },
           ],

@@ -58,4 +58,5 @@ export default {
   'menu.money': '资金',
   'menu.quality': '质量',
   'menu.other': '其他',
+  'menu.market': '市场',
 };
