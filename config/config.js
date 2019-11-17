@@ -175,6 +175,11 @@ export default {
               component: './market/Market'
             },
             {
+              path: '/operation',
+              name: 'operation',
+              component: './operation/Operation'
+            },
+            {
               component: './404',
             },
           ],
