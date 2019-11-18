@@ -129,7 +129,8 @@ const BasicLayout = props => {
       logo={logo}
       onCollapse={handleMenuCollapse}
       menuItemRender={(menuItemProps, defaultDom) => {
-        if (menuItemProps.isUrl) {
+        // 解决@ant-design/pro-layout ^4.7.0支持subMenuRender的同时，修复菜单栏变蓝色且带url的break change
+        if (menuItemProps.isUrl || menuItemProps.children) {
           return defaultDom;
         }
 
