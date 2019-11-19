@@ -180,6 +180,11 @@ export default {
               component: './operation/Operation'
             },
             {
+              path: '/daily',
+              name: 'daily',
+              component: './daily/Daily'
+            },
+            {
               component: './404',
             },
           ],
