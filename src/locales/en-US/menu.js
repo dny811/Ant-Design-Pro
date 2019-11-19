@@ -60,4 +60,5 @@ export default {
   'menu.other': 'other',
   'menu.market': 'market',
   'menu.operation': 'operation',
+  'menu.daily': 'daily',
 };
