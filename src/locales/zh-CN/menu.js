@@ -61,4 +61,5 @@ export default {
   'menu.market': '市场',
   'menu.operation': '运营',
   'menu.daily': '日清',
+  'menu.authority': '权限管理',
 };
