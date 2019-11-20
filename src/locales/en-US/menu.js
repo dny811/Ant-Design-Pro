@@ -61,4 +61,5 @@ export default {
   'menu.market': 'market',
   'menu.operation': 'operation',
   'menu.daily': 'daily',
+  'menu.authority': 'authority',
 };

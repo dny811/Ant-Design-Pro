@@ -185,6 +185,11 @@ export default {
               component: './daily/Daily'
             },
             {
+              path: '/authority',
+              name: 'authority',
+              component: './authority/Authority'
+            },
+            {
               component: './404',
             },
           ],
