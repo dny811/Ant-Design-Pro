@@ -49,9 +49,9 @@ export default {
   'menu.editor.koni': 'Koni Editor',
   // 项目自定义新建国际化
   'menu.order': 'order',
-  'menu.order.list': 'list',
-  'menu.order.list.table': 'table',
-  'menu.order.list.buy': 'buy',
+  'menu.order.tryOrder': 'tryOrder',
+  'menu.order.orderMap': 'orderMap',
+  'menu.order.orderBuy': 'orderBuy',
   'menu.parent': 'parent',
   'menu.teacher': 'teacher',
   'menu.statistics': 'statistics',
