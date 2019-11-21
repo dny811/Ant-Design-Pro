@@ -119,23 +119,16 @@ export default {
               // icon: 'global',
               routes: [
                 {
-                  path: '/order/list',
-                  name: 'list',
+                  path: '/order/orderMap',
+                  name: 'orderMap',
                   // icon: 'line-chart',
-                  routes: [
-                    {
-                      path: '/order/list/table',
-                      name: 'table',
-                      // icon: 'line-chart',
-                      component: './order/Order',
-                    },
-                    {
-                      path: '/order/list/buy',
-                      name: 'buy',
-                      // icon: 'line-chart',
-                      component: './order/List',
-                    },
-                  ],
+                  component: './order/orderMap'
+                },
+                {
+                  path: '/order/orderBuy',
+                  name: 'orderBuy',
+                  // icon: 'line-chart',
+                  component: './order/orderBuy'
                 },
               ],
             },
