@@ -34,7 +34,7 @@ const menuDataRender = menuList => {
 
 const defaultFooterDom = (
   <DefaultFooter
-    copyright="2019 贝贝帮技术部出品🦀️"
+    copyright={`${new Date().getFullYear()} 贝贝帮技术部出品 🦀️`}
     links={[
       // {
       //   key: 'Ant Design Pro',
@@ -119,11 +119,11 @@ const BasicLayout = props => {
       headerRender={HeaderRender}
       menuHeaderRender={(logoDom, titleDom) => {
         return (
-          <div>
+          <>
             {logoDom}
             {/* {titleDom} */}
             hello dny!
-          </div>
+          </>
         )
       }}
       logo={logo}
