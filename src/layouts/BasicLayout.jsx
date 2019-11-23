@@ -7,7 +7,7 @@ import ProLayout, { DefaultFooter } from '@ant-design/pro-layout';
 import React, { useEffect } from 'react';
 import Link from 'umi/link';
 import { connect } from 'dva';
-import { Icon } from 'antd';
+import { Icon, Menu, Dropdown } from 'antd';
 import { formatMessage } from 'umi-plugin-react/locale';
 import Authorized from '@/utils/Authorized';
 import RightContent from '@/components/GlobalHeader/RightContent';
@@ -120,7 +120,9 @@ const BasicLayout = props => {
       menuHeaderRender={(logoDom, titleDom) => {
         return (
           <>
-            {logoDom}
+            <Link to='/'>
+              {logoDom}
+            </Link>
             {/* {titleDom} */}
             hello dny!
           </>
