@@ -7,7 +7,7 @@ import ProLayout, { DefaultFooter } from '@ant-design/pro-layout';
 import React, { useEffect } from 'react';
 import Link from 'umi/link';
 import { connect } from 'dva';
-import { Icon, Menu, Dropdown } from 'antd';
+import { Icon, Select } from 'antd';
 import { formatMessage } from 'umi-plugin-react/locale';
 import Authorized from '@/utils/Authorized';
 import RightContent from '@/components/GlobalHeader/RightContent';
@@ -16,6 +16,7 @@ import logo from '../assets/logo.png';
 
 // 项目自定义组件
 import HeaderRender from '@/pages/header/HeaderRender'
+import SelectArea from '../components/SelectArea'
 
 /**
  * use Authorized check all menu item
@@ -124,7 +125,7 @@ const BasicLayout = props => {
               {logoDom}
             </Link>
             {/* {titleDom} */}
-            hello dny!
+            <SelectArea />
           </>
         )
       }}
