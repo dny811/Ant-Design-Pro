@@ -124,7 +124,7 @@ const BasicLayout = props => {
             <Link to='/'>
               {logoDom}
             </Link>
-            {/* {titleDom} */}
+            {titleDom}
             <SelectArea />
           </>
         )
