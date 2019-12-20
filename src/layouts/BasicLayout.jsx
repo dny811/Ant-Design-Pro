@@ -124,6 +124,7 @@ const BasicLayout = props => {
             <Link to='/'>
               {logoDom}
             </Link>
+            <span>hhhkahaglalagalghinsr</span>
             {/* {titleDom} */}
             <SelectArea />
           </>
