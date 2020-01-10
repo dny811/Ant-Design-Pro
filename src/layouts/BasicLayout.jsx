@@ -122,7 +122,7 @@ const BasicLayout = props => {
         return (
           <>
             <Link to='/'>
-              {logoDom}
+              {/* {logoDom} */}
             </Link>
             <span>hhhkahaglalagalghinsr</span>
             {titleDom}
