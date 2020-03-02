@@ -125,7 +125,7 @@ const BasicLayout = props => {
               {logoDom}
             </Link>
             <span>hhhkahaglalagalghinsr</span>
-            {/* {titleDom} */}
+            {titleDom}
             <SelectArea />
           </>
         )
